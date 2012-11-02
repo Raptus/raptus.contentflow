@@ -6,7 +6,7 @@ version = '1.0b2'
 setup(name='raptus.contentflow',
       version=version,
       description="Provides a view for folders and collections which shows the contents in a ContentFlow",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='raptus.contentflow',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/raptus.contentflow',
+      url='https://github.com/Raptus/raptus.contentflow',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['raptus'],
